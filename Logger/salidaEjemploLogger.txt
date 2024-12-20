@@ -1,0 +1,10 @@
+20:15:31.931 [paquete.EjemploLogger.main()] DEBUG paquete.EjemploLogger - Este es un mensaje de depuración
+20:15:31.937 [paquete.EjemploLogger.main()] INFO paquete.EjemploLogger - Este es un mensaje informativo
+20:15:31.937 [paquete.EjemploLogger.main()] WARN paquete.EjemploLogger - Este es un mensaje de advertencia
+20:15:31.937 [paquete.EjemploLogger.main()] ERROR paquete.EjemploLogger - Este es un mensaje de error
+20:15:31.938 [paquete.EjemploLogger.main()] INFO paquete.EjemploLogger - El usuario David tiene 25 años
+20:15:31.952 [paquete.EjemploLogger.main()] ERROR paquete.EjemploLogger - Error al dividir
+java.lang.ArithmeticException: / by zero
+	at paquete.EjemploLogger.main(EjemploLogger.java:24)
+	at org.codehaus.mojo.exec.ExecJavaMojo$1.run(ExecJavaMojo.java:279)
+	at java.lang.Thread.run(Thread.java:745)
